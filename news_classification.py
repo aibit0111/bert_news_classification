@@ -8,7 +8,7 @@ from torch import nn
 from transformers import BertModel
 from torch.optim import Adam
 from tqdm import tqdm
-
+ 
 datapath = 'bbc-text.csv'
 df = pd.read_csv(datapath)
 df.head()
